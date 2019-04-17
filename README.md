@@ -2,10 +2,11 @@
 
 형태소 분석기를 포함한 의존 구문 분석 수행 도구(ver. 0.5)
 
-- 본 코드는 여러 문장이 들어있는 파일을 입력받아 형태소 분석을 수행한 후 의존 구문 분석을 진행
+- 본 코드는 여러 문장이 들어있는 파일을 입력받아 형태소 분석과 의존 구문 분석을 수행합니다.
+- 본 코드에는 형태소 분석기와 의존 구문 파서가 들어가 있습니다.
 - 형태소 분석기는 Transformer 모델 사용
 - Transformer 소스는 아래 깃허브 소스를 사용함
-  - https://github.com/yseokchoi/attention-is-all-you-need-pytorch
+  - https://github.com/jadore801120/attention-is-all-you-need-pytorch
 - 의존 구문 분석은 Stack-Pointer Networks 모델 사용
 - Stack-Pointer Networks 소스는 아래 깃허브 소스를 사용함
   - https://github.com/yseokchoi/KoreanDependencyParserusingStackPointer
